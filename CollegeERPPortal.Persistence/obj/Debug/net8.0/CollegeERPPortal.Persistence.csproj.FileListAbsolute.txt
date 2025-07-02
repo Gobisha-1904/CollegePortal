@@ -1,0 +1,17 @@
+C:\Users\Admiin\Desktop\Gobisha\CollegeERPPortal\CollegeERPPortal.Persistence\bin\Debug\net8.0\CollegeERPPortal.Persistence.deps.json
+C:\Users\Admiin\Desktop\Gobisha\CollegeERPPortal\CollegeERPPortal.Persistence\bin\Debug\net8.0\CollegeERPPortal.Persistence.dll
+C:\Users\Admiin\Desktop\Gobisha\CollegeERPPortal\CollegeERPPortal.Persistence\bin\Debug\net8.0\CollegeERPPortal.Persistence.pdb
+C:\Users\Admiin\Desktop\Gobisha\CollegeERPPortal\CollegeERPPortal.Persistence\bin\Debug\net8.0\CollegeERPPortal.Application.dll
+C:\Users\Admiin\Desktop\Gobisha\CollegeERPPortal\CollegeERPPortal.Persistence\bin\Debug\net8.0\CollegeERPPortal.Domain.dll
+C:\Users\Admiin\Desktop\Gobisha\CollegeERPPortal\CollegeERPPortal.Persistence\bin\Debug\net8.0\CollegeERPPortal.Application.pdb
+C:\Users\Admiin\Desktop\Gobisha\CollegeERPPortal\CollegeERPPortal.Persistence\bin\Debug\net8.0\CollegeERPPortal.Domain.pdb
+C:\Users\Admiin\Desktop\Gobisha\CollegeERPPortal\CollegeERPPortal.Persistence\obj\Debug\net8.0\CollegeERPPortal.Persistence.csproj.AssemblyReference.cache
+C:\Users\Admiin\Desktop\Gobisha\CollegeERPPortal\CollegeERPPortal.Persistence\obj\Debug\net8.0\CollegeERPPortal.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admiin\Desktop\Gobisha\CollegeERPPortal\CollegeERPPortal.Persistence\obj\Debug\net8.0\CollegeERPPortal.Persistence.AssemblyInfoInputs.cache
+C:\Users\Admiin\Desktop\Gobisha\CollegeERPPortal\CollegeERPPortal.Persistence\obj\Debug\net8.0\CollegeERPPortal.Persistence.AssemblyInfo.cs
+C:\Users\Admiin\Desktop\Gobisha\CollegeERPPortal\CollegeERPPortal.Persistence\obj\Debug\net8.0\CollegeERPPortal.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Admiin\Desktop\Gobisha\CollegeERPPortal\CollegeERPPortal.Persistence\obj\Debug\net8.0\CollegeE.36E7347C.Up2Date
+C:\Users\Admiin\Desktop\Gobisha\CollegeERPPortal\CollegeERPPortal.Persistence\obj\Debug\net8.0\CollegeERPPortal.Persistence.dll
+C:\Users\Admiin\Desktop\Gobisha\CollegeERPPortal\CollegeERPPortal.Persistence\obj\Debug\net8.0\refint\CollegeERPPortal.Persistence.dll
+C:\Users\Admiin\Desktop\Gobisha\CollegeERPPortal\CollegeERPPortal.Persistence\obj\Debug\net8.0\CollegeERPPortal.Persistence.pdb
+C:\Users\Admiin\Desktop\Gobisha\CollegeERPPortal\CollegeERPPortal.Persistence\obj\Debug\net8.0\ref\CollegeERPPortal.Persistence.dll

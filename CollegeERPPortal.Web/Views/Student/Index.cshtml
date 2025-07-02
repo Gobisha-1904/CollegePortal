@@ -1,0 +1,26 @@
+﻿@model List<CollegeERPPortal.Application.DTOs.StudentDto>
+
+<h2>Student List</h2>
+<a href="/Student/Create">Add New</a>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Course</th>
+            <th>DOB</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var student in Model)
+        {
+            <tr>
+                <td>@student.Name</td>
+                <td>@student.Email</td>
+                <td>@student.Course</td>
+                <td>@student.DOB.ToShortDateString()</td>
+            </tr>
+        }
+    </tbody>
+</table>

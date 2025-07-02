@@ -1,0 +1,17 @@
+C:\Users\Admiin\Desktop\Gobisha\CollegeERPPortal\CollegeERPPortal.Infrastructure\bin\Debug\net8.0\CollegeERPPortal.Infrastructure.deps.json
+C:\Users\Admiin\Desktop\Gobisha\CollegeERPPortal\CollegeERPPortal.Infrastructure\bin\Debug\net8.0\CollegeERPPortal.Infrastructure.dll
+C:\Users\Admiin\Desktop\Gobisha\CollegeERPPortal\CollegeERPPortal.Infrastructure\bin\Debug\net8.0\CollegeERPPortal.Infrastructure.pdb
+C:\Users\Admiin\Desktop\Gobisha\CollegeERPPortal\CollegeERPPortal.Infrastructure\bin\Debug\net8.0\CollegeERPPortal.Application.dll
+C:\Users\Admiin\Desktop\Gobisha\CollegeERPPortal\CollegeERPPortal.Infrastructure\bin\Debug\net8.0\CollegeERPPortal.Domain.dll
+C:\Users\Admiin\Desktop\Gobisha\CollegeERPPortal\CollegeERPPortal.Infrastructure\bin\Debug\net8.0\CollegeERPPortal.Application.pdb
+C:\Users\Admiin\Desktop\Gobisha\CollegeERPPortal\CollegeERPPortal.Infrastructure\bin\Debug\net8.0\CollegeERPPortal.Domain.pdb
+C:\Users\Admiin\Desktop\Gobisha\CollegeERPPortal\CollegeERPPortal.Infrastructure\obj\Debug\net8.0\CollegeERPPortal.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Admiin\Desktop\Gobisha\CollegeERPPortal\CollegeERPPortal.Infrastructure\obj\Debug\net8.0\CollegeERPPortal.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admiin\Desktop\Gobisha\CollegeERPPortal\CollegeERPPortal.Infrastructure\obj\Debug\net8.0\CollegeERPPortal.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Admiin\Desktop\Gobisha\CollegeERPPortal\CollegeERPPortal.Infrastructure\obj\Debug\net8.0\CollegeERPPortal.Infrastructure.AssemblyInfo.cs
+C:\Users\Admiin\Desktop\Gobisha\CollegeERPPortal\CollegeERPPortal.Infrastructure\obj\Debug\net8.0\CollegeERPPortal.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Admiin\Desktop\Gobisha\CollegeERPPortal\CollegeERPPortal.Infrastructure\obj\Debug\net8.0\CollegeE.ABBDCAED.Up2Date
+C:\Users\Admiin\Desktop\Gobisha\CollegeERPPortal\CollegeERPPortal.Infrastructure\obj\Debug\net8.0\CollegeERPPortal.Infrastructure.dll
+C:\Users\Admiin\Desktop\Gobisha\CollegeERPPortal\CollegeERPPortal.Infrastructure\obj\Debug\net8.0\refint\CollegeERPPortal.Infrastructure.dll
+C:\Users\Admiin\Desktop\Gobisha\CollegeERPPortal\CollegeERPPortal.Infrastructure\obj\Debug\net8.0\CollegeERPPortal.Infrastructure.pdb
+C:\Users\Admiin\Desktop\Gobisha\CollegeERPPortal\CollegeERPPortal.Infrastructure\obj\Debug\net8.0\ref\CollegeERPPortal.Infrastructure.dll

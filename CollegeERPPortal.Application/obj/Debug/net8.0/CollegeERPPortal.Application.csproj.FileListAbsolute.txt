@@ -1,0 +1,15 @@
+C:\Users\Admiin\Desktop\Gobisha\CollegeERPPortal\CollegeERPPortal.Application\bin\Debug\net8.0\CollegeERPPortal.Application.deps.json
+C:\Users\Admiin\Desktop\Gobisha\CollegeERPPortal\CollegeERPPortal.Application\bin\Debug\net8.0\CollegeERPPortal.Application.dll
+C:\Users\Admiin\Desktop\Gobisha\CollegeERPPortal\CollegeERPPortal.Application\bin\Debug\net8.0\CollegeERPPortal.Application.pdb
+C:\Users\Admiin\Desktop\Gobisha\CollegeERPPortal\CollegeERPPortal.Application\bin\Debug\net8.0\CollegeERPPortal.Domain.dll
+C:\Users\Admiin\Desktop\Gobisha\CollegeERPPortal\CollegeERPPortal.Application\bin\Debug\net8.0\CollegeERPPortal.Domain.pdb
+C:\Users\Admiin\Desktop\Gobisha\CollegeERPPortal\CollegeERPPortal.Application\obj\Debug\net8.0\CollegeERPPortal.Application.csproj.AssemblyReference.cache
+C:\Users\Admiin\Desktop\Gobisha\CollegeERPPortal\CollegeERPPortal.Application\obj\Debug\net8.0\CollegeERPPortal.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admiin\Desktop\Gobisha\CollegeERPPortal\CollegeERPPortal.Application\obj\Debug\net8.0\CollegeERPPortal.Application.AssemblyInfoInputs.cache
+C:\Users\Admiin\Desktop\Gobisha\CollegeERPPortal\CollegeERPPortal.Application\obj\Debug\net8.0\CollegeERPPortal.Application.AssemblyInfo.cs
+C:\Users\Admiin\Desktop\Gobisha\CollegeERPPortal\CollegeERPPortal.Application\obj\Debug\net8.0\CollegeERPPortal.Application.csproj.CoreCompileInputs.cache
+C:\Users\Admiin\Desktop\Gobisha\CollegeERPPortal\CollegeERPPortal.Application\obj\Debug\net8.0\CollegeE.F739BB05.Up2Date
+C:\Users\Admiin\Desktop\Gobisha\CollegeERPPortal\CollegeERPPortal.Application\obj\Debug\net8.0\CollegeERPPortal.Application.dll
+C:\Users\Admiin\Desktop\Gobisha\CollegeERPPortal\CollegeERPPortal.Application\obj\Debug\net8.0\refint\CollegeERPPortal.Application.dll
+C:\Users\Admiin\Desktop\Gobisha\CollegeERPPortal\CollegeERPPortal.Application\obj\Debug\net8.0\CollegeERPPortal.Application.pdb
+C:\Users\Admiin\Desktop\Gobisha\CollegeERPPortal\CollegeERPPortal.Application\obj\Debug\net8.0\ref\CollegeERPPortal.Application.dll

@@ -1,0 +1,31 @@
+@model List<CollegeERPPortal.Application.DTOs.FacultyDto>
+
+@{
+    ViewData["Title"] = "Faculty List";
+}
+
+<h2>Faculty List</h2>
+
+<a asp-action="Create" class="btn btn-primary mb-3">Add New Faculty</a>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Department</th>
+            <th>Email</th>
+            <th>Join Date</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var faculty in Model)
+        {
+            <tr>
+                <td>@faculty.Name</td>
+                <td>@faculty.Department</td>
+                <td>@faculty.Email</td>
+                <td>@faculty.JoinDate.ToShortDateString()</td>
+            </tr>
+        }
+    </tbody>
+</table>

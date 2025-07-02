@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollegeERPPortal.Domain", "CollegeERPPortal.Domain\CollegeERPPortal.Domain.csproj", "{8917E1F7-B6EE-401E-A1C1-1FDEF4182591}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollegeERPPortal.Application", "CollegeERPPortal.Application\CollegeERPPortal.Application.csproj", "{03BF0C87-1467-4793-9CA8-039FBAB06209}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollegeERPPortal.Infrastructure", "CollegeERPPortal.Infrastructure\CollegeERPPortal.Infrastructure.csproj", "{34BD30A2-9475-4969-8F3C-F38BF5EC24D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollegeERPPortal.Persistence", "CollegeERPPortal.Persistence\CollegeERPPortal.Persistence.csproj", "{8BD72419-41D6-4BD9-85E0-FB25F96997C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollegeERPPortal.Web", "CollegeERPPortal.Web\CollegeERPPortal.Web.csproj", "{5CD8A09D-C8DE-494B-B803-472F3CCBC1A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8917E1F7-B6EE-401E-A1C1-1FDEF4182591}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8917E1F7-B6EE-401E-A1C1-1FDEF4182591}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8917E1F7-B6EE-401E-A1C1-1FDEF4182591}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8917E1F7-B6EE-401E-A1C1-1FDEF4182591}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03BF0C87-1467-4793-9CA8-039FBAB06209}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03BF0C87-1467-4793-9CA8-039FBAB06209}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03BF0C87-1467-4793-9CA8-039FBAB06209}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03BF0C87-1467-4793-9CA8-039FBAB06209}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34BD30A2-9475-4969-8F3C-F38BF5EC24D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34BD30A2-9475-4969-8F3C-F38BF5EC24D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34BD30A2-9475-4969-8F3C-F38BF5EC24D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34BD30A2-9475-4969-8F3C-F38BF5EC24D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BD72419-41D6-4BD9-85E0-FB25F96997C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BD72419-41D6-4BD9-85E0-FB25F96997C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BD72419-41D6-4BD9-85E0-FB25F96997C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BD72419-41D6-4BD9-85E0-FB25F96997C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CD8A09D-C8DE-494B-B803-472F3CCBC1A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CD8A09D-C8DE-494B-B803-472F3CCBC1A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CD8A09D-C8DE-494B-B803-472F3CCBC1A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CD8A09D-C8DE-494B-B803-472F3CCBC1A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
