@@ -15,3 +15,4 @@ C:\Users\Admiin\Desktop\Gobisha\CollegeERPPortal\CollegeERPPortal.Persistence\ob
 C:\Users\Admiin\Desktop\Gobisha\CollegeERPPortal\CollegeERPPortal.Persistence\obj\Debug\net8.0\refint\CollegeERPPortal.Persistence.dll
 C:\Users\Admiin\Desktop\Gobisha\CollegeERPPortal\CollegeERPPortal.Persistence\obj\Debug\net8.0\CollegeERPPortal.Persistence.pdb
 C:\Users\Admiin\Desktop\Gobisha\CollegeERPPortal\CollegeERPPortal.Persistence\obj\Debug\net8.0\ref\CollegeERPPortal.Persistence.dll
+C:\Users\Admiin\Desktop\Gobisha\CollegeERPPortal\CollegeERPPortal.Persistence\obj\Debug\net8.0\CollegeERPPortal.Persistence.sourcelink.json

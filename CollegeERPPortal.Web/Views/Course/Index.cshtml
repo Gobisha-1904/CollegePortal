@@ -1,0 +1,43 @@
+@model List<CollegeERPPortal.Application.DTOs.CourseDto>
+
+@{
+    ViewData["Title"] = "Course List";
+}
+
+<h2 class="text-center mb-4">Course List</h2>
+
+<div class="text-end mb-3">
+    <a asp-action="Create" class="btn btn-primary">+ Add New Course</a>
+</div>
+
+<table class="table table-bordered table-striped">
+    <thead class="table-dark">
+        <tr>
+            <th>Name</th>
+            <th>Duration</th>
+            <th style="width: 180px;">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null && Model.Count > 0)
+        {
+            foreach (var course in Model)
+            {
+                <tr>
+                    <td>@course.Name</td>
+                    <td>@course.Duration</td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@course.Id" class="btn btn-sm btn-warning">Edit</a>
+                        <a asp-action="Delete" asp-route-id="@course.Id" class="btn btn-sm btn-danger ms-2">Delete</a>
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="3" class="text-center">No courses available.</td>
+            </tr>
+        }
+    </tbody>
+</table>

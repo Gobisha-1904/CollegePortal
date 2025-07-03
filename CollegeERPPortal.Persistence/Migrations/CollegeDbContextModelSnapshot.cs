@@ -22,6 +22,39 @@ namespace CollegeERPPortal.Persistence.Migrations
 
             OracleModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("CollegeERPPortal.Domain.Entities.Faculty", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("NUMBER(10)")
+                        .HasColumnName("ID");
+
+                    OraclePropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Department")
+                        .IsRequired()
+                        .HasColumnType("NVARCHAR2(100)")
+                        .HasColumnName("DEPARTMENT");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("NVARCHAR2(100)")
+                        .HasColumnName("EMAIL");
+
+                    b.Property<DateTime>("JoinDate")
+                        .HasColumnType("DATE")
+                        .HasColumnName("JOINDATE");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("NVARCHAR2(100)")
+                        .HasColumnName("NAME");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("FACULTIES", (string)null);
+                });
+
             modelBuilder.Entity("CollegeERPPortal.Domain.Entities.Student", b =>
                 {
                     b.Property<int>("Id")

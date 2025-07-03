@@ -23,6 +23,7 @@ namespace CollegeERPPortal.Persistence.Repositories
             return await _context.Faculties
                 .Select(f => new FacultyDto
                 {
+                    Id = f.Id, 
                     Name = f.Name,
                     Department = f.Department,
                     Email = f.Email,
@@ -44,5 +45,44 @@ namespace CollegeERPPortal.Persistence.Repositories
             _context.Faculties.Add(faculty);
             await _context.SaveChangesAsync();
         }
+        // Persistence/Services/FacultyService.cs
+        public async Task<FacultyDto> GetByIdAsync(int id)
+        {
+            var faculty = await _context.Faculties.FindAsync(id);
+                if (faculty == null)
+                return null;
+            return new FacultyDto
+            {
+                Id = faculty.Id,
+                Name = faculty.Name,
+                Email = faculty.Email,
+                Department = faculty.Department,
+                JoinDate = faculty.JoinDate
+            };
+        }
+        public async Task UpdateAsync(FacultyDto dto)
+        {
+            var faculty = await _context.Faculties.FindAsync(dto.Id);
+            if (faculty != null)
+            {   
+                faculty.Name = dto.Name;
+                faculty.Email = dto.Email;
+                faculty.Department = dto.Department;
+                faculty.JoinDate = dto.JoinDate;
+
+                await _context.SaveChangesAsync();
+            }
+        }
+        public async Task DeleteAsync(int id)
+        {
+            var faculty = await _context.Faculties.FindAsync(id);
+            if (faculty != null)
+            {
+                _context.Faculties.Remove(faculty);
+                await _context.SaveChangesAsync();
+            }
+        }
+
+
     }
 }

@@ -8,5 +8,8 @@ namespace CollegeERPPortal.Application.Interfaces
     {
         Task<List<StudentDto>> GetAllAsync();
         Task AddAsync(StudentDto student);
+        Task<StudentDto> GetByIdAsync(int id);
+        Task UpdateAsync(StudentDto Dto);
+        Task DeleteAsync(int id);
     }
 }

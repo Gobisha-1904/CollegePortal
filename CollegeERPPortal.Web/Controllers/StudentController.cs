@@ -39,5 +39,46 @@ namespace CollegeERPPortal.Web.Controllers
             await _studentService.AddAsync(dto);
             return RedirectToAction("Index"); // ✅ redirects to Index
         }
+              public async Task<IActionResult> Edit(int id)
+        {
+            var faculty = await _studentService.GetByIdAsync(id);
+            if (faculty == null)
+            {
+                return NotFound();
+            }
+            return View(faculty);
+        }
+        [HttpPost]
+        public async Task<IActionResult> Edit(StudentDto dto)
+        {
+            if (!ModelState.IsValid)
+                return View(dto);
+
+            await _studentService.UpdateAsync(dto);
+            return RedirectToAction("Index");
+        }
+        [HttpGet]
+ // GET: Faculty/Delete/5
+public async Task<IActionResult> Delete(int id)
+{
+    var faculty = await _studentService.GetByIdAsync(id);
+    if (faculty == null)
+    {
+        return NotFound();
+    }
+    return View(faculty);
+}
+
+// POST: Faculty/Delete
+[HttpPost]
+[ValidateAntiForgeryToken]
+public async Task<IActionResult> DeleteConfirmed(int id)
+{
+    await _studentService.DeleteAsync(id); // ✅ Only ID is needed
+    return RedirectToAction("Index");
+}
+
+
+
     }
 }

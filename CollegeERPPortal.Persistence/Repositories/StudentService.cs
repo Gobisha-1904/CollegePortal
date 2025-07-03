@@ -36,7 +36,7 @@ namespace CollegeERPPortal.Persistence.Repositories
         {
             return await _context.Students
                 .Select(s => new StudentDto
-                {
+                {   Id=s.Id,
                     Name = s.Name,
                     Email = s.Email,
                     Course = s.Course,
@@ -44,5 +44,44 @@ namespace CollegeERPPortal.Persistence.Repositories
                 })
                 .ToListAsync();
         }
+
+        public async Task<StudentDto> GetByIdAsync(int id)
+        {
+            var student = await _context.Students.FindAsync(id);
+                if (student == null)
+                return null;
+            return new StudentDto
+            {
+                Id = student.Id,
+                Name = student.Name,
+                Email = student.Email,
+                Course = student.Course,
+                DOB = student.DOB
+            };
+        }
+        public async Task UpdateAsync(StudentDto dto)
+        {
+            var student = await _context.Students.FindAsync(dto.Id);
+            if (student != null)
+            {   
+                student.Name = dto.Name;
+                student.Email = dto.Email;
+                student.Course = dto.Course;
+                student.DOB = dto.DOB;
+
+                await _context.SaveChangesAsync();
+            }
+        }
+        public async Task DeleteAsync(int id)
+        {
+            var student = await _context.Students.FindAsync(id);
+            if (student != null)
+            {
+                _context.Students.Remove(student);
+                await _context.SaveChangesAsync();
+            }
+        }
+
+
     }
 }

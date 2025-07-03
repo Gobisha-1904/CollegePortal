@@ -14,6 +14,7 @@ builder.Services.AddDbContext<CollegeDbContext>(options =>
 
 builder.Services.AddScoped<IStudentService, StudentService>();
 builder.Services.AddScoped<IFacultyService, FacultyService>();
+builder.Services.AddScoped<ICourseService, CourseService>();
 
 var app = builder.Build();
 
@@ -31,6 +32,7 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Faculty}/{action=Index}/{id?}");
+    pattern: "{controller=Home}/{action=Index}/{id?}");
+    
 
 app.Run();

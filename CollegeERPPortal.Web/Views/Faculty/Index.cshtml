@@ -15,6 +15,7 @@
             <th>Department</th>
             <th>Email</th>
             <th>Join Date</th>
+            <th>Actions</th>
         </tr>
     </thead>
     <tbody>
@@ -25,6 +26,9 @@
                 <td>@faculty.Department</td>
                 <td>@faculty.Email</td>
                 <td>@faculty.JoinDate.ToShortDateString()</td>
+                <td><a asp-action="Edit" asp-route-id="@faculty.Id" class="btn btn-sm btn-warning">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@faculty.Id" class="btn btn-sm btn-danger">Delete</a>
+                </td>
             </tr>
         }
     </tbody>

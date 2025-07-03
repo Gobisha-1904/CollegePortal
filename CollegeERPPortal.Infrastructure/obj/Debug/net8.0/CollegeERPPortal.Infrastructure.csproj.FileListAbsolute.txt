@@ -15,3 +15,4 @@ C:\Users\Admiin\Desktop\Gobisha\CollegeERPPortal\CollegeERPPortal.Infrastructure
 C:\Users\Admiin\Desktop\Gobisha\CollegeERPPortal\CollegeERPPortal.Infrastructure\obj\Debug\net8.0\refint\CollegeERPPortal.Infrastructure.dll
 C:\Users\Admiin\Desktop\Gobisha\CollegeERPPortal\CollegeERPPortal.Infrastructure\obj\Debug\net8.0\CollegeERPPortal.Infrastructure.pdb
 C:\Users\Admiin\Desktop\Gobisha\CollegeERPPortal\CollegeERPPortal.Infrastructure\obj\Debug\net8.0\ref\CollegeERPPortal.Infrastructure.dll
+C:\Users\Admiin\Desktop\Gobisha\CollegeERPPortal\CollegeERPPortal.Infrastructure\obj\Debug\net8.0\CollegeERPPortal.Infrastructure.sourcelink.json

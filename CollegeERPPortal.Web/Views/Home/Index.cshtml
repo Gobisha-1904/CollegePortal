@@ -1,0 +1,15 @@
+@{
+    ViewData["Title"] = "Landing Page";
+}
+
+<h2 class="text-center">Welcome to College ERP</h2>
+
+<div class="d-flex justify-content-center mt-5 gap-3">
+    <form method="get" asp-controller="Student" asp-action="Index">
+        <button type="submit" class="btn btn-primary btn-lg">Student</button>
+    </form>
+
+    <form method="get" asp-controller="Faculty" asp-action="Index">
+        <button type="submit" class="btn btn-secondary btn-lg">Faculty</button>
+    </form>
+</div>

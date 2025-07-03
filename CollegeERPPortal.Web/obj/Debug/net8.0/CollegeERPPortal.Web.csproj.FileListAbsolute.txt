@@ -180,3 +180,4 @@ C:\Users\Admiin\Desktop\Gobisha\CollegeERPPortal\CollegeERPPortal.Web\obj\Debug\
 C:\Users\Admiin\Desktop\Gobisha\CollegeERPPortal\CollegeERPPortal.Web\obj\Debug\net8.0\CollegeERPPortal.Web.pdb
 C:\Users\Admiin\Desktop\Gobisha\CollegeERPPortal\CollegeERPPortal.Web\obj\Debug\net8.0\CollegeERPPortal.Web.genruntimeconfig.cache
 C:\Users\Admiin\Desktop\Gobisha\CollegeERPPortal\CollegeERPPortal.Web\obj\Debug\net8.0\ref\CollegeERPPortal.Web.dll
+C:\Users\Admiin\Desktop\Gobisha\CollegeERPPortal\CollegeERPPortal.Web\obj\Debug\net8.0\CollegeERPPortal.Web.sourcelink.json

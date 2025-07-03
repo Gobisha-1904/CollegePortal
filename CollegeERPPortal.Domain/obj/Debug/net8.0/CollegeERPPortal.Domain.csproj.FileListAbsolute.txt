@@ -9,3 +9,4 @@ C:\Users\Admiin\Desktop\Gobisha\CollegeERPPortal\CollegeERPPortal.Domain\obj\Deb
 C:\Users\Admiin\Desktop\Gobisha\CollegeERPPortal\CollegeERPPortal.Domain\obj\Debug\net8.0\refint\CollegeERPPortal.Domain.dll
 C:\Users\Admiin\Desktop\Gobisha\CollegeERPPortal\CollegeERPPortal.Domain\obj\Debug\net8.0\CollegeERPPortal.Domain.pdb
 C:\Users\Admiin\Desktop\Gobisha\CollegeERPPortal\CollegeERPPortal.Domain\obj\Debug\net8.0\ref\CollegeERPPortal.Domain.dll
+C:\Users\Admiin\Desktop\Gobisha\CollegeERPPortal\CollegeERPPortal.Domain\obj\Debug\net8.0\CollegeERPPortal.Domain.sourcelink.json

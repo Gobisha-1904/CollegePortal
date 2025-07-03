@@ -10,6 +10,7 @@
             <th>Email</th>
             <th>Course</th>
             <th>DOB</th>
+            <th>Actions</th>
         </tr>
     </thead>
     <tbody>
@@ -20,6 +21,9 @@
                 <td>@student.Email</td>
                 <td>@student.Course</td>
                 <td>@student.DOB.ToShortDateString()</td>
+                <td><a asp-action="Edit" asp-route-id="@student.Id" class="btn btn-sm btn-warning">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@student.Id" class="btn btn-sm btn-danger">Delete</a>
+                </td>
             </tr>
         }
     </tbody>
